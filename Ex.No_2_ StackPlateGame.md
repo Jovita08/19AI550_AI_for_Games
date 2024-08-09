@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/97efbeca-5d5f-45a8-bf74-c60bacd2fd5f)# Ex.No: 2 Implementation of Stack Plate game using Queue 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 9.8.24                                                                           
+### REGISTER NUMBER : 212221240062
 ### AIM: 
 To write a python program to simulate the process of stacking plates.
 ### Algorithm:
