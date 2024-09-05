@@ -1,6 +1,6 @@
 # Ex.No: 4  Implementation of Snake game using Steering behaviors
-### DATE: 18/08/24                                                                       
-### REGISTER NUMBER : 212222110048
+### DATE: 04/08/24                                                                       
+### REGISTER NUMBER : 212221240062
 ### AIM: 
 To write a python program to simulate the snake game using steering behaviors
 ### Algorithm:
