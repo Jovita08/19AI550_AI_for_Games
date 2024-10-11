@@ -1,25 +1,25 @@
 # Ex.No: 11  Mini Project 
-### DATE: 04/10/2024                                                                           
+### DATE: 10/10/2024                                                                           
 ### REGISTER NUMBER : 212221240062
 ### AIM: 
-To write a python program to simulate the 2048 game.
+To write a python program to simulate the car obstacle game.
 ### Algorithm:
 #### Step-1: 
-Create a 4x4 grid filled with zeros (empty tiles).
+Import necessary modules (pygame, random, sys, os, time).
 #### Step-2: 
-Randomly place two tiles (either a 2 or a 4) in two empty cells on the board.
+Initialize the game by calling pygame.init(), creating the game window, and setting up fonts, sounds, and images.
 #### Step-3: 
-Display the current state of the board.
+Display the "Start" screen and prompt the player to press any key.
 #### Step-4: 
-Ask the player for input (w, s, a, d) to indicate the direction of the move (up, down, left, right).
+Arrow keys or WASD to move the player's car, keys Z and X for cheats to reverse or slow down baddies.
 #### Step-5: 
-If the input is invalid, prompt the player to enter a valid move.
+Periodically create new baddies (enemy cars) and append them to the list of obstacles.
 #### Step-6: 
-After a valid move, add a new tile (either 2 or 4) at a random empty cell on the board.
+Check if the player's car collides with any baddie. If true, the game round ends.
 #### Step-7: 
-If there are no empty tiles left and no adjacent tiles can be merged, the game is over.
+Wait for the player to press a key to restart with 3 lives again.
 #### Step-8: 
-If there are still possible moves or empty tiles, repeat the game loop.
+Quit the game using terminate() when needed (e.g., if the player presses the ESC key).
 ### Program:
 ```
 import pygame, random, sys ,os,time
@@ -257,4 +257,4 @@ while (count>0):
 ![image](https://github.com/user-attachments/assets/0b88e9ab-9acf-47ab-98ca-707a019a127d)
 
 ### Result:
-Thus the simple 2048 game was implemented using python
+Thus a simple car obstacle game was implemented using python
